@@ -1,6 +1,6 @@
-package de.grashorn.java_eight_training.constructorreferences;
+package de.grashorn.java_eight_training.methodreferences;
 
-public class AnyThing {
+public class AnyString {
 
 	/**
 	 * Returns the first char of the given {@link String}
@@ -10,5 +10,15 @@ public class AnyThing {
 	 */
 	String startsWith(String s) {
 		return String.valueOf(s.charAt(0));
+	}
+
+	/**
+	 *  Returns the last char of the given {@link String}
+	 * @param s
+	 * @return
+	 */
+	String endsWith(String s) {
+		return String.valueOf(s.charAt(s.length() - 1));
+
 	}
 }

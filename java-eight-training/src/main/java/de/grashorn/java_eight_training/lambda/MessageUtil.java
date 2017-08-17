@@ -1,4 +1,6 @@
-package de.grashorn.java_eight_training;
+package de.grashorn.java_eight_training.lambda;
+
+import java.util.Arrays;
 
 public class MessageUtil {
 	private String message;
@@ -11,7 +13,6 @@ public class MessageUtil {
 
 	// prints the message
 	public String printMessage() {
-		System.out.println(message);
 		return message;
 	}
 }
