@@ -1,0 +1,11 @@
+Statische Eigenschaften haben gegenüber Objekteigenschaften den Vorteil, dass sie im Programm ausdrücken,
+keinen Zustand vom Objekt zu nutzen. Betrachten wir noch einmal die statischen Methoden aus der Klasse Math.
+Wenn sie Objektmethoden wären, so würden sie in der Regel mit einem Objektzustand arbeiten. 
+Die statischen Methoden hätten keine Parameter und nähmen ihre Arbeitswerte nicht aus den Argumenten,
+sondern aus dem internen Zustand des Objekts. Das macht aber keine Math-Methode.
+Um den Sinus eines Winkels zu berechnen, benötigen wir kein spezifisches Mathe-Objekt.
+Andersherum könnte eine Methode wie setName() eines Spiels nicht statisch sein,
+da ganz individuell für einen Spieler der Name gesetzt werden soll und nicht alle Spieler-Objekte immer den gleichen Namen tragen sollten.
+
+Statische Methoden sind aus diesem Grund häufiger als statische Variablen, da sie ihre Arbeitswerte ausschließlich aus den Parametern ziehen.
+Statische Variablen werden in erster Linie als Konstanten verwendet.
